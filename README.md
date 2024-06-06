@@ -1,51 +1,38 @@
 # 🌐 Ocean | Guarg - Global Solution 2024
-
+ 
 ## Descrição
 Este é um projeto que tem como intuito utilizar drones submarinos implantados com inteligência artificial em suas câmeras, capazes de fazer o reconhecimento e o mapeamento do lixo presente em reservas de água (mar, rios e lagoas), disponibilizando em um site estas informações para que terceiros (Governos, ONGs, e voluntários) possam fazer a retirada dos dejetos.
-
+ 
 ## Tecnologias Utilizadas
-### Spring Boot 3.3.0:
-- **spring-boot-starter-data-jpa**: Suporte para JPA e Hibernate.
-- **spring-boot-starter-security**: Integração com Spring Security.
-- **spring-boot-starter-thymeleaf**: Suporte para Thymeleaf como motor de templates.
-- **spring-boot-starter-validation**: Suporte para validação de dados.
-- **spring-boot-starter-web**: Suporte para desenvolvimento web, incluindo aplicações RESTful.
-- **spring-boot-starter-test**: Suporte para testes unitários e de integração.
-
-### Thymeleaf Extras Spring Security:
-- **thymeleaf-extras-springsecurity6**: Integração de Thymeleaf com Spring Security.
-
+### .NET 7:
+- **Microsoft.AspNetCore.OpenApi (7.0.2)**: Suporte para OpenAPI/Swagger em aplicações ASP.NET Core.
+- **Microsoft.EntityFrameworkCore (7.0.0)**: Provedor ORM para Entity Framework Core, facilitando o acesso a dados.
+- **Microsoft.EntityFrameworkCore.Tools (7.0.0)**: Ferramentas para desenvolvimento com Entity Framework Core.
+- **Oracle.EntityFrameworkCore (7.21.8)**: Provedor Entity Framework Core para Oracle Database.
+- **Oracle.ManagedDataAccess.Core (23.4.0)**: Biblioteca de acesso a dados para Oracle Database sem dependências de cliente Oracle.
+- **Swashbuckle.AspNetCore (6.6.2)**: Geração de documentação e UI do Swagger para APIs ASP.NET Core.
+ 
+ 
 ### Banco de Dados:
-- **h2database:h2**: Banco de dados em memória para desenvolvimento e testes.
-
-### Lombok:
-- **org.projectlombok:lombok**: Biblioteca para reduzir boilerplate de código Java (anotado como opcional).
-
-### ModelMapper:
-- **org.modelmapper:modelmapper**: Biblioteca para mapeamento de objetos.
-
-### Java:
-- **java.version: 17**: Versão do Java utilizada no projeto.
-
+- **Oracle Database**: Utilizado como banco de dados relacional para a aplicação.
+ 
 ## Pré-requisitos
-- Java 17
-- Maven
+-.NET 7.0 SDK
 - Git
-
+ 
 ## Como executar
 1. Clone este repositório do Github
 2. Navegue até o diretório do projeto
-3. Execute o comando `mvn spring-boot:run` para iniciar a aplicação
-
+3. Execute o comando  para restaurar as dependências `dotnet restore` 
+4. Execute o comando para iniciar a aplicação: `dotnet run`
+ 
 ## Instruções
-Após executar o projeto, abra no navegador a URL `localhost:9090/api/home`. Para navegar entre os outros endpoints, será necessário fazer o login com um usuário válido. Use:
-- **Username**: `user`
-- **Password**: `password`
-
+Após executar o projeto, a página do Swagger será aberta automaticamente no navegador, geralmente em http://localhost:5000/swagger (ou https://localhost:5001/swagger se estiver usando HTTPS).
+ 
 ## Documentação da API
-
+ 
 ### DroneController
-
+ 
 | Método HTTP | Endpoint          | Descrição                            | Parâmetros                                      |
 |-------------|-------------------|--------------------------------------|-------------------------------------------------|
 | POST        | `/api/drones`     | Cria um novo drone                   | Corpo da Requisição: `DroneDto`                 |
@@ -53,9 +40,9 @@ Após executar o projeto, abra no navegador a URL `localhost:9090/api/home`. Par
 | GET         | `/api/drones/{id}`| Retorna os detalhes de um drone específico | Path Variable: `id` (Long)                   |
 | PUT         | `/api/drones/{id}`| Atualiza um drone existente          | Path Variable: `id` (Long), Corpo da Requisição: `DroneDto` |
 | DELETE      | `/api/drones/{id}`| Deleta um drone específico           | Path Variable: `id` (Long)                      |
-
+ 
 ### GarbageController
-
+ 
 | Método HTTP | Endpoint                              | Descrição                                         | Parâmetros                                      |
 |-------------|---------------------------------------|---------------------------------------------------|-------------------------------------------------|
 | POST        | `/api/garbages`                       | Cria um novo registro de lixo                     | Corpo da Requisição: `GarbageDto`               |
