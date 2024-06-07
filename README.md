@@ -35,19 +35,18 @@ Após executar o projeto, a página do Swagger será aberta automaticamente no n
  
 | Método HTTP | Endpoint          | Descrição                            | Parâmetros                                      |
 |-------------|-------------------|--------------------------------------|-------------------------------------------------|
-| POST        | `/api/drones`     | Cria um novo drone                   | Corpo da Requisição: `DroneDto`                 |
-| GET         | `/api/drones`     | Retorna uma lista paginada de drones | Query Params: `page` (int, default: 0), `size` (int, default: 5) |
-| GET         | `/api/drones/{id}`| Retorna os detalhes de um drone específico | Path Variable: `id` (Long)                   |
-| PUT         | `/api/drones/{id}`| Atualiza um drone existente          | Path Variable: `id` (Long), Corpo da Requisição: `DroneDto` |
-| DELETE      | `/api/drones/{id}`| Deleta um drone específico           | Path Variable: `id` (Long)                      |
+| POST        | `/api/drones`     | Cria um novo drone                   | Nenhum                 |
+| GET         | `/api/drones`     | Retorna uma lista paginada de drones |Nenhum    |
+| GET         | `/api/drones/{id}`| Retorna os detalhes de um drone específico | Nenhum                   |
+| PUT         | `/api/drones/{id}`| Atualiza um drone existente          | Nenhum |
+| DELETE      | `/api/drones/{id}`| Deleta um drone específico           | Nenhum                      |
  
-### GarbageController
+### OceanWasteController
  
 | Método HTTP | Endpoint                              | Descrição                                         | Parâmetros                                      |
 |-------------|---------------------------------------|---------------------------------------------------|-------------------------------------------------|
-| POST        | `/api/garbages`                       | Cria um novo registro de lixo                     | Corpo da Requisição: `GarbageDto`               |
-| GET         | `/api/garbages`                       | Retorna uma lista de todos os registros de lixo   | Nenhum                                          |
-| GET         | `/api/garbages/detections/{droneId}`  | Retorna uma lista paginada de lixos detectados por um drone | Path Variable: `droneId` (Long), Query Params: `page` (int, default: 0), `size` (int, default: 5) |
-| GET         | `/api/garbages/{id}`                  | Retorna os detalhes de um registro de lixo específico | Path Variable: `id` (Long)                  |
-| PUT         | `/api/garbages/{id}`                  | Atualiza um registro de lixo existente            | Path Variable: `id` (Long), Corpo da Requisição: `GarbageDto` |
-| DELETE      | `/api/garbages/{id}`                  | Deleta um registro de lixo específico             | Path Variable: `id` (Long)                      |
+| POST        | `/api/OceanWaste`                       | Cria um novo registro de lixo                     | Nenhum               |
+| GET         | `/api/OceanWaste`                       | Retorna uma lista de todos os registros de lixo   | Nenhum                                          |
+| GET         | `/api/OceanWaste/{id}`                  | Retorna os detalhes de um registro de lixo específico | Nenhum                  |
+| PUT         | `/api/OceanWaste/{id}`                  | Atualiza um registro de lixo existente            | Nenhum |
+| DELETE      | `/api/OceanWaste/{id}`                  | Deleta um registro de lixo específico             | Nenhum                      |
