@@ -11,12 +11,32 @@
       "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\controllers\\oceanwastecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\data\\dronecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\data\\dronecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\dronemonitoramento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\dronemonitoramento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\models\\oceanwaste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\models\\oceanwaste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\controllers\\dronescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\controllers\\dronescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\services\\oceanwasteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\services\\oceanwasteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\services\\ioceanwasteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\services\\ioceanwasteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\data\\dronecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\data\\dronecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|solutionrelative:dronemonitoramento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8D9BCBF-EEED-48B1-B170-4AE4004FD0B8}|DroneMonitoramento\\DroneMonitoramento.csproj|c:\\users\\aysla\\source\\repos\\dronemonitoramento\\dronemonitoramento\\services\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +50,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DroneMonitoramento",
+              "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\DroneMonitoramento.csproj",
+              "RelativeDocumentMoniker": "DroneMonitoramento\\DroneMonitoramento.csproj",
+              "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\DroneMonitoramento.csproj",
+              "RelativeToolTip": "DroneMonitoramento\\DroneMonitoramento.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T22:09:32.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OceanWaste.cs",
+              "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Models\\OceanWaste.cs",
+              "RelativeDocumentMoniker": "DroneMonitoramento\\Models\\OceanWaste.cs",
+              "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Models\\OceanWaste.cs",
+              "RelativeToolTip": "DroneMonitoramento\\Models\\OceanWaste.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T16:00:57.688Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,22 +86,23 @@
               "RelativeDocumentMoniker": "DroneMonitoramento\\Program.cs",
               "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Program.cs",
               "RelativeToolTip": "DroneMonitoramento\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T21:24:54.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DronesController.cs",
               "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Controllers\\DronesController.cs",
               "RelativeDocumentMoniker": "DroneMonitoramento\\Controllers\\DronesController.cs",
               "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Controllers\\DronesController.cs",
               "RelativeToolTip": "DroneMonitoramento\\Controllers\\DronesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:20:57.401Z"
+              "WhenOpened": "2024-06-05T21:20:57.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,13 +112,53 @@
               "RelativeDocumentMoniker": "DroneMonitoramento\\Controllers\\OceanWasteController.cs",
               "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Controllers\\OceanWasteController.cs",
               "RelativeToolTip": "DroneMonitoramento\\Controllers\\OceanWasteController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwD0AAAARAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAqwDYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:20:35.963Z"
+              "WhenOpened": "2024-06-05T21:20:35.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "IOceanWasteService.cs",
+              "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Services\\IOceanWasteService.cs",
+              "RelativeDocumentMoniker": "DroneMonitoramento\\Services\\IOceanWasteService.cs",
+              "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Services\\IOceanWasteService.cs",
+              "RelativeToolTip": "DroneMonitoramento\\Services\\IOceanWasteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:11:45.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OceanWasteService.cs",
+              "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Services\\OceanWasteService.cs",
+              "RelativeDocumentMoniker": "DroneMonitoramento\\Services\\OceanWasteService.cs",
+              "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Services\\OceanWasteService.cs",
+              "RelativeToolTip": "DroneMonitoramento\\Services\\OceanWasteService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:12:44.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\appsettings.json",
+              "RelativeDocumentMoniker": "DroneMonitoramento\\appsettings.json",
+              "ToolTip": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\appsettings.json",
+              "RelativeToolTip": "DroneMonitoramento\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T16:13:40.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DroneContext.cs",
               "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Data\\DroneContext.cs",
               "RelativeDocumentMoniker": "DroneMonitoramento\\Data\\DroneContext.cs",
@@ -79,11 +166,12 @@
               "RelativeToolTip": "DroneMonitoramento\\Data\\DroneContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T01:40:12.468Z"
+              "WhenOpened": "2024-06-04T01:40:12.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Interface.cs",
               "DocumentMoniker": "C:\\Users\\aysla\\source\\repos\\DroneMonitoramento\\DroneMonitoramento\\Services\\Interface.cs",
               "RelativeDocumentMoniker": "DroneMonitoramento\\Services\\Interface.cs",
@@ -91,7 +179,8 @@
               "RelativeToolTip": "DroneMonitoramento\\Services\\Interface.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAIwAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T02:29:45.698Z"
+              "WhenOpened": "2024-06-04T02:29:45.698Z",
+              "EditorCaption": ""
             }
           ]
         }

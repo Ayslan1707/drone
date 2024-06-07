@@ -31,5 +31,6 @@ app.UseHttpsRedirection();
 
 // Define endpoints
 app.MapDroneEndpoints();
+app.MapControllers();
 
 app.Run();
