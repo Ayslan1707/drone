@@ -2,12 +2,14 @@ using DroneMonitoramento.Data;
 using DroneMonitoramento.Services;
 using DroneMonitoringAPI.Controllers;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddControllers();
 // Add services to the container.
 builder.Services.AddDbContext<DroneContext>(options =>
-    options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseOracle(builder.Configuration.GetConnectionString("OracleDB")));
 
 // Add services
 builder.Services.AddScoped<IDroneService, DroneService>();
@@ -26,8 +28,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.MapGet("/", () => "Drone Monitoring API");
 
 // Define endpoints
 app.MapDroneEndpoints();

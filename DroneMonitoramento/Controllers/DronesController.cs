@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DroneMonitoringAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public static class DronesController
     {
         public static void MapDroneEndpoints(this WebApplication app)
